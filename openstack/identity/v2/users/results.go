@@ -25,7 +25,7 @@ type User struct {
 	Email string
 
 	// The ID of the tenant to which this user belongs.
-	TenantID string `mapstructure:"tenant_id"`
+	TenantID string
 }
 
 // Role assigns specific responsibilities to users, allowing them to accomplish
